@@ -1,0 +1,33 @@
+---
+baseURL: "/"
+languageCode: "en-GB"
+title: "hmorl"
+theme: "hmorl-theme"
+
+
+params:
+  description: "musician, computational artist"
+  footer: "---  \nSite powered by [Hugo](https://gohugo.io/)  \n
+          Designed by [hmorl](https://github.com/hmorl/hmorl.github.io)"
+
+social:
+    github: "https://github.com/hmorl"
+    instagram: "https://instagram.com/hmorl"
+    bandcamp: "https://hmorl.bandcamp.com"
+    linkedin: "https://linkedin.com/in/harry-morley-995915124"
+    youtube: "https://youtube.com/channel/UCnCCCcbA4luBXvcJ59NLsgw"
+
+menu:
+  main:
+  - name: "home"
+    url: "/"
+    weight: 1
+  - name: "about"
+    url: "/about/"
+    weight: 2
+  - name: "categories"
+    url: "/categories/"
+    weight: 3
+  - name: "music"
+    url: "https://hmorl.bandcamp.com"
+    weight : 4
