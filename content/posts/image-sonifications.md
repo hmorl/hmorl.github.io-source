@@ -3,7 +3,7 @@ title: "Image Sonifications"
 date: 2016-06-10
 image: img/image-sonifications.png
 categories: ["coding", "composition"]
-draft: true
+draft: false
 ---
 
 Below are a set of sonifications I made of 3 famous works of art. I built a sonification system in [Processing](https://www.processing.org) that simplifies an image of the artwork into an array of larger pixels, displayed as circles. The program then ‘plays’ the pixels by selecting them at random, which triggers notes using HSB (hue, saturation, brightness) data to derive pitches and rhythms.

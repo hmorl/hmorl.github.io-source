@@ -3,7 +3,7 @@ title: "_butterflies (Lorenz Attractor sonification)"
 date: 2017-02-01
 image: img/butterflies.png
 categories: ["coding", "composition"]
-draft: true
+draft: false
 ---
 
 <div class="video-container"><iframe src="https://www.youtube-nocookie.com/embed/6hRqMg6OrH4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
