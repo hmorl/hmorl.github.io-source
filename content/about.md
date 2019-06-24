@@ -2,33 +2,35 @@
 title: "About"
 date: 2019-05-25T00:17:20+01:00
 hide_date: true
-draft: true
+draft: false
 ---
 
-[![Picture of Harry playing electronic music](/img/about-small.jpg#right)](/img/about.jpg)
-I am a musician and computational artist based in London. I graduated from University of Surrey in 2017 with a First Class BMus (Hons) in Creative Music Technology and won the Ableton Prize for best computer-based live performance.
+![Picture of Harry playing electronic music](/img/about-small.jpg#right)
+I am a musician and computational artist based in London. I enjoy learning new things and collaborating with others!
 
 ## Education
-BMus (Hons) Creative Music Technology, Surrey (2017)
-MA Computational Arts, Goldsmiths (2019) (Current)
+[2018 - present]  
+MA Computational Arts, Goldsmiths  
+
+[2014 - 2017]  
+BMus (Hons) Creative Music Technology, Surrey. Ableton Prize for best computer-based live performance
 
 ## Music
-I play keys, guitar/bass, voice, 
-Jazz, Rock, Pop, Experimental Electronic
+I play keys, guitar/bass and also sing. I enjoy playing jazz, rock, pop, and experimental electronics. Check out my performances [here.](/categories/performance)
 
-[Polar Twin](https://polartwin.bandcamp.com)
+I sometimes release music with my friend on a small experimental label, [Polar Twin](https://polartwin.bandcamp.com)
 
-## Code
-C++ / openFrameworks / openGL, Processing, Max/MSP, HTML5/CSS3, 
+## Languages
+  * C++/openFrameworks/openGL
+  * Max/MSP
+  * Java/Processing
+  * JavaScript
+  * HTML5/CSS3
+  * Spanish
+
 ## Other interests
-
-Interests:
-
-  * Coding
-  * Harmony
-  * Jazz
+  * Music analysis and transcription
+  * Jazz music
   * Web design
-
-MA Computational Arts (Graduating 2019)
 
 Contact *harry.morley@live.co.uk*

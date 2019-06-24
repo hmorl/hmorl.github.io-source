@@ -31,6 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .social-nav {
   font-size: 1.5em;
+  color: #333
 }
 /****************************/
 
@@ -58,11 +59,23 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*Content pages     */
-img[src*="#right"] {
-  float: right;
+
+#post-content img {
   max-width: 100%;
   height: auto;
   width: auto\9; /* ie8 fix */
+  float: right;
+
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+#post-content img[src*="#right"] {
+  float: right;
+}
+
+#post-content img[src*="#left"] {
+  float: left;
 }
 
 #site-nav-container {
@@ -131,7 +144,6 @@ img[src*="#right"] {
   display: block;
 }
 
-
 .site-nav ul ul li {   
   display: block;
   padding: 0 7px;
@@ -154,9 +166,15 @@ img[src*="#right"] {
   width: 100%;
   max-width: 600px;
   height:auto;
+
   float: right;
   margin-bottom: 1em;
   margin-left: 1em;
+}
+
+.video-container.no-float {
+  float: none;
+  margin: 0;
 }
   
 .video-container::after {
@@ -164,7 +182,6 @@ img[src*="#right"] {
   display: block;
   content: '';
 }
-
 
 .video-container iframe {
   position: absolute;

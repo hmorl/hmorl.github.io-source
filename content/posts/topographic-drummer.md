@@ -5,7 +5,6 @@ image: img/topographic-drummer.png
 categories: ["coding", "composition"]
 draft: false
 ---
-
 <div class = "video-container"><iframe src="https://player.vimeo.com/video/311011168" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 This project is an exploration into using 2D data from different shapes to sequence and synthesize percussion sounds. It is a performable program designed for improvisation and on-the-fly beat creation, particularly with a minimal and microsound aesthetic. The user can put shapes on a canvas, modify parameters, send the shapes off in random directions and toggle a glitchy delay effect.
 

@@ -2,7 +2,7 @@
 title: "Set of Three"
 date: 2017-06-01
 image: img/set-of-three.png
-categories: ["coding", "composition"]
+categories: ["coding", "composition", "performance"]
 draft: false
 ---
 <div class="video-container"><iframe src="https://www.youtube-nocookie.com/embed/iOls3eleuHk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
