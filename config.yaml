@@ -2,18 +2,15 @@
 baseURL: "/"
 languageCode: "en-GB"
 title: "harry morley"
-theme: "hmorl-theme"
-
 
 params:
   description: "musician, computational artist"
-  footer: "---  \nSite powered by [Hugo](https://gohugo.io/)  \n
-          Designed by [hmorl](https://github.com/hmorl/hmorl.github.io)"
+  footer: "site powered by [hugo](https://gohugo.io/)  \n
+          designed by [hmorl](https://github.com/hmorl/hmorl.github.io)"
 
 social:
     github: "https://github.com/hmorl"
     instagram: "https://instagram.com/hmorl"
-    bandcamp: "https://hmorl.bandcamp.com"
     linkedin: "https://linkedin.com/in/harry-morley-995915124"
     youtube: "https://youtube.com/channel/UCnCCCcbA4luBXvcJ59NLsgw"
 

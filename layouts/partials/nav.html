@@ -1,0 +1,29 @@
+<ul>
+  {{ $currentPage := . }}
+  {{ range .Site.Menus.main }}
+    <li>
+      {{ if eq .Name "categories" }}
+      <a href="#" class="menu-link">{{ .Name }}</a>
+        <ul>
+          {{- range $name, $taxonomy := $.Site.Taxonomies.categories -}}
+            {{ with $.Site.GetPage (printf "/categories/%s" $name) }}
+                <li><a href="{{- .URL -}}" class="menu-link {{ if eq $currentPage.URL .URL }}active{{ end }}">{{ $name }}({{ $taxonomy.Count }})</li></a>
+            {{- end }}
+          {{ end }}
+        </ul>
+      {{ else }}
+      <a href="{{ .URL }}" class="menu-link {{ if eq $currentPage.URL .URL }}active{{ end }}">{{ .Name }}</a>
+  {{ end }}
+    </li>
+  {{ end }}
+
+  
+  <!-- <nav class="social-nav"> -->
+      {{ range $key, $val := .Site.Social }}
+      {{ if $val }}
+          <li><a href="{{ $val }}" class = "social-link"><i class="fab fa-{{ $key }}"></i></a></li>
+      {{ end }}
+  {{ end }}
+  <!-- </nav> -->
+
+</ul>

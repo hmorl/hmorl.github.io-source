@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <link rel="stylesheet" type="text/css" href="/css/fa.css" >
+
+        <title>{{ .Title }} - {{ .Site.Title }}</title>
+        {{ .Hugo.Generator }}
+    </head>
+    <body>
+        <div id = "page-container">
+            <h1 class="site-header"><a href="/" class="menu-link" rel="home">{{ .Site.Title }}</a></h1>
+            <div class="site-description">{{ .Site.Params.description }}</div>
+
+
+            <div id = "site-nav-container">
+            <nav class="site-nav">{{- partial "nav" . -}}</nav>
+            </div>
+            <main>

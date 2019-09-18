@@ -1,0 +1,8 @@
+{{ partial "header.html" . }}
+<div id = "post-content">
+<h2>{{ .Title }}</h2>
+{{ if not .Params.hide_date }}
+<h3>{{ .Date.Format "January 2, 2006" }}</h3>
+{{ end }}
+{{ .Content }}</div>
+{{ partial "footer.html" . }}
