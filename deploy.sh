@@ -12,7 +12,7 @@ cd ../hmorl.github.io
 rm -r *
 
 # Go back to source
-cd ../website-source
+cd ../hmorl.github.io-source
 
 # Copy files from public to the public repo
 cp -a public/. ../hmorl.github.io/
@@ -37,7 +37,7 @@ git commit -m "$msg"
 git push origin master
 
 # Go back to website source
-cd ../website-source
+cd ../hmorl.github.io-source
 
 # Add source changes to git
 git add .
