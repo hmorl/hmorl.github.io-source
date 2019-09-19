@@ -28,8 +28,9 @@ I sometimes release music with my friend on a small experimental label, [Polar T
   * Spanish
 
 ### Interests
+  * Programming microcontrollers
+  * Internet of Things
   * Music analysis and transcription
-  * Programming microcontrollers / physical computing
   * Web design
   * Cooking
   * Jazz music

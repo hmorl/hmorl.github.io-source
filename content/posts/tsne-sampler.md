@@ -2,7 +2,7 @@
 title: "t-SNE Sampler (machine learning project)"
 date: 2019-05-10
 image: img/tsne-sampler.png
-categories: ["coding", "composition"]
+categories: ["coding"]
 draft: false
 ---
 
