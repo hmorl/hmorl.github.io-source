@@ -1,7 +1,0 @@
-[submodule "public"]
-	path = public
-	url = git@github.com:hmorl/hmorl.github.io.git
-	branch = master
-[submodule "hmorl.github.io"]
-	path = hmorl.github.io
-	url = https://github.com/hmorl/hmorl.github.io
