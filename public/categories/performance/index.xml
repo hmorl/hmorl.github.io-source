@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Performance on harry morley</title>
+    <link>/categories/performance/</link>
+    <description>Recent content in Performance on harry morley</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <lastBuildDate>Fri, 30 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/performance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Inside Voice - Joey Dosik (Studio Cover)</title>
+      <link>/posts/inside-voice/</link>
+      <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/inside-voice/</guid>
+      <description>Went to Air Studios, London and had the pleasure of playing a very old Hammond B3 and Minimoog, on a cover of Joey Dosik&amp;rsquo;s &amp;ldquo;Inside Voice&amp;rdquo;, alongside some talented friends. Psychedelic phone video edited by myself.</description>
+    </item>
+    
+    <item>
+      <title>Game of Live</title>
+      <link>/posts/game-of-live/</link>
+      <pubDate>Mon, 03 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/game-of-live/</guid>
+      <description>A sonification of John Conway’s Game of Life, the famous cellular automaton. Built in Ableton’s Max for Live, the system treats an iterating 2D grid as a generative arpeggiator, which outputs MIDI to a synth. Each cell of the grid can be alive or dead, the state of which is determined by a simple set of rules based on the number of neighbours it has.
+Visuals coded in Processing.</description>
+    </item>
+    
+    <item>
+      <title>Set of Three</title>
+      <link>/posts/set-of-three/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/set-of-three/</guid>
+      <description>This piece was a study in sample manipulation using Max/MSP and a custom multitouch interface for iPad (using Mira). The patch I built manipulated intimate piano samples, using granular synthesis and time stretching to create a glitchy, delicate atmosphere.</description>
+    </item>
+    
+    <item>
+      <title>Take My Hand - Matt Berry (Studio Cover)</title>
+      <link>/posts/take-my-hand/</link>
+      <pubDate>Sun, 22 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/take-my-hand/</guid>
+      <description>Played keys on this cover of the Toast of London theme tune with some wonderful people! Recorded and produced by Ashley Andrew-Jones and Paul Anders.</description>
+    </item>
+    
+  </channel>
+</rss>

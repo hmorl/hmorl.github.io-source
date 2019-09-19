@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en-GB">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <link rel="stylesheet" type="text/css" href="/css/fa.css" >
+
+        <title>t-SNE Sampler (machine learning project) - harry morley</title>
+        <meta name="generator" content="Hugo 0.54.0" />
+    </head>
+    <body>
+        <div id = "page-container">
+            <h1 class="site-header"><a href="/" class="menu-link" rel="home">harry morley</a></h1>
+            <div class="site-description">musician, computational artist</div>
+
+
+            <div id = "site-nav-container">
+            <nav class="site-nav"><ul>
+  
+  
+    <li>
+      
+      <a href="/" class="menu-link ">home</a>
+  
+    </li>
+  
+    <li>
+      
+      <a href="/about/" class="menu-link ">about</a>
+  
+    </li>
+  
+    <li>
+      
+      <a href="#" class="menu-link">categories</a>
+        <ul>
+                <li><a href="/categories/coding/" class="menu-link ">coding(11)</li></a>
+          
+                <li><a href="/categories/collaboration/" class="menu-link ">collaboration(2)</li></a>
+          
+                <li><a href="/categories/composition/" class="menu-link ">composition(7)</li></a>
+          
+                <li><a href="/categories/performance/" class="menu-link ">performance(4)</li></a>
+          
+                <li><a href="/categories/visuals/" class="menu-link ">visuals(5)</li></a>
+          
+                <li><a href="/categories/web/" class="menu-link ">web(1)</li></a>
+          
+        </ul>
+      
+    </li>
+  
+    <li>
+      
+      <a href="https://hmorl.bandcamp.com" class="menu-link ">music</a>
+  
+    </li>
+  
+
+  
+  
+      
+      
+          <li><a href="https://github.com/hmorl" class = "social-link"><i class="fab fa-github"></i></a></li>
+      
+  
+      
+          <li><a href="https://instagram.com/hmorl" class = "social-link"><i class="fab fa-instagram"></i></a></li>
+      
+  
+      
+          <li><a href="https://linkedin.com/in/harry-morley-995915124" class = "social-link"><i class="fab fa-linkedin"></i></a></li>
+      
+  
+      
+          <li><a href="https://youtube.com/channel/UCnCCCcbA4luBXvcJ59NLsgw" class = "social-link"><i class="fab fa-youtube"></i></a></li>
+      
+  
+  
+
+</ul>
+</nav>
+            </div>
+            <main>
+
+<div id = "post-content">
+<h2>t-SNE Sampler (machine learning project)</h2>
+
+<h3>May 10, 2019</h3>
+
+<div class = "video-container"><iframe src="https://player.vimeo.com/video/335258061" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+
+<p>I completed this project as part of Rebecca Fiebrink&rsquo;s Data and Machine Learning module at Goldsmiths. It uses the t-SNE algorithm to reduce the number of dimensions of audio analysis data, so that sounds are arranged in 2D space according to their likeness to one another. I used around 600 sounds, consisting of royalty free samples and my own field recordings.</p>
+
+<p>For example, all the kick drums are together, all of the wooden percussion sounds are near eachother, and the hi-hat sounds are grouped - and suitably far away from the kick samples.</p>
+
+<p>The project has 2 parts - an audio analysis and t-SNE generation Python script based on Gene Kogan&rsquo;s <a href="https://github.com/ml4a/ml4a-guides/blob/master/notebooks/audio-tsne.ipynb">audio t-SNE script</a>, and a sequencing program which uses the 2D t-SNE output, made in C++/openFrameworks and the ofxMaxim addon. The program can sync with Ableton Link-enabled applications.</p>
+
+<p>Sounds are triggered by &ldquo;Lens&rdquo; objects. I liken these to sonic magnifying glasses, trawling over and uncovering the sonic artefacts. A Lens can be created by clicking and dragging to set its radius. All samples inside a Lens can be triggered. The speed and time that the triggering occurs depends on the &ldquo;freq&rdquo; and &ldquo;phase offset&rdquo; sliders for each Lens in the controls panel - meaning polyrhythms can be easily formed. Something that emerged which I liked was the ability to turn the frequency up super fast, creating a kind of granular synthesis / microsound aesthetic.</p>
+
+<p>Each Lens triggers its samples at a set volume and relative speed/pitch, again according to the control panel. The wandering radius and speed controls make the Lens drift around its origin position, according to Perlin noise. This allows the Lens to travel into different neighbourhoods of sound, as well as just triggering sounds within a set region.</p>
+
+<p>After each Lens collects all of its currently &ldquo;in view&rdquo; samples (this happens every frame), it sorts them by distance from the center of the Lens. A feature can be turned on which triggers the samples in order from closest to farthest. When this feature is turned off, the samples are chosen at random. I implemented this feature as an exploratory tool for sonifying the relationship between one sound and its neighbouring sounds. The &ldquo;inner radius&rdquo; parameter allows you to turn the Lens into a ring, where only sounds within the ring are triggered.</p>
+
+<p>I found <a href="https://distill.pub/2016/misread-tsne/">this article</a> really useful in learning how to interpret the results of the t-SNE and tune its parameters.</p>
+</div>
+            </main>
+            <footer class = "site-footer">
+                site powered by <a href="https://gohugo.io/">hugo</a><br />
+ designed by <a href="https://github.com/hmorl/hmorl.github.io">hmorl</a>
+                <div id = "back-to-top"><a href="#">Back to top ^</a></div>
+            </footer>
+        </div>
+        
+    </body>
+</html>
