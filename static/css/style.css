@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', Gill Sans, sans-serif;
+  font-family: 'Open Sans', Helvetica Neue Light, sans-serif;
   color: #333333;
   background-color: #E5E5E5;
   display: block;
@@ -30,7 +30,7 @@ div.site-description {
 
 #page-container {
   margin: 3em 3em;
-  max-width: 60em;
+  max-width: 72em;
 }
 
 /*Header, description, social*/
