@@ -1,9 +1,8 @@
-{{- $paginator := .Paginate (where .Pages "Type" "posts") 20 -}}
 <div id="postgrid-container">
     <ul id = "postgrid">
-        {{- range $paginator.Pages -}}
+        {{- range where .Paginator.Pages "Type" "posts" -}}
         <li>
-            <a class="postgrid-cell" href="{{- .URL -}}">
+            <a class="postgrid-cell" href="{{- .Permalink -}}">
                 <div class="postgrid-img-container">
                     <img src="/{{- .Params.Image -}}" width="300" height="169" alt="post-thumb" />
                 </div>

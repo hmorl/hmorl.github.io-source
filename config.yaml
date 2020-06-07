@@ -2,6 +2,12 @@
 baseURL: "/"
 languageCode: "en-GB"
 title: "harry morley"
+paginate: 20
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 params:
   description: "musician, computational artist"

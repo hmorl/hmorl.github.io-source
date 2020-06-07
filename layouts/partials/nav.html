@@ -7,12 +7,12 @@
         <ul>
           {{- range $name, $taxonomy := $.Site.Taxonomies.categories -}}
             {{ with $.Site.GetPage (printf "/categories/%s" $name) }}
-                <li><a href="{{- .URL -}}" class="menu-link {{ if eq $currentPage.URL .URL }}active{{ end }}">{{ $name }}({{ $taxonomy.Count }})</li></a>
+                <li><a href="{{- .Permalink -}}" class="menu-link {{ if eq $currentPage.RelPermalink .Permalink }}active{{ end }}">{{ $name }}({{ $taxonomy.Count }})</li></a>
             {{- end }}
           {{ end }}
         </ul>
       {{ else }}
-      <a href="{{ .URL }}" class="menu-link {{ if eq $currentPage.URL .URL }}active{{ end }}">{{ .Name }}</a>
+      <a href="{{ .URL }}" class="menu-link {{ if eq $currentPage.RelPermalink .URL }}active{{ end }}">{{ .Name }}</a>
   {{ end }}
     </li>
   {{ end }}
